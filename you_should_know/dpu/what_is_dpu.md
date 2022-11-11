@@ -4,7 +4,7 @@
 ## 数据中心的发展方向：
 
 
-### 计算能力，例如目前最快的超算E级计算机Frontier:
+### 计算能力，例如目前最快的超算E级计算机Frontier，除了cpu外互联拓扑网络等其他配置也相当重要:
         Site:	DOE/SC/Oak Ridge National Laboratory
         System URL:	https://www.olcf.ornl.gov/frontier/
         Manufacturer:	HPE
