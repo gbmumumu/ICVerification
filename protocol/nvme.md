@@ -55,7 +55,7 @@
     - 管理队列配置（I/O队列配置通过Admin命令处理）；
     - 用于可扩展的提交和完成队列的Doorbell寄存器
     
-  一个NVMe controller和单个PCI功能（PCI Function）关联。
+  一个NVMe controller和单个PCI功能（PCI Function）关联。适用于整个控制器的功能和设置在控制器能力（CAP）寄存器和识别控制器数据结构中显示。
     
     
     
