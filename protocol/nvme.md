@@ -11,10 +11,16 @@
   
   NVMe over Fabrics规范定义了协议接口和NVMe接口的相关扩展，支持通过其他互连（例如以太网、InfiniBand™、光纤通道）进行操作,NVMe over Fabrics规范为每个NVMe传输（在该规范内或通过引用）提供了一个NVMe传输绑定。在本规范中，需求/特性可以被记录为特定于NVMe over Fabric实现或特定的NVMe传输绑定。 此外，NVMe over PCIe和NVMe over Fabric实现对特性和功能的支持要求可能不同。
   
-### scope 范围
+### Scope 范围
 
   规范定义了用于与NVM子系统中的控制器通信的寄存器接口及controller（控制器）支持的标准命令集。其中，有三种不同的controller：
   
     - IO controllers 
     - Discovery controllers 
     - Administrative controllers
+
+### Outside of scope
+  
+  寄存器接口和命令集仅定义与NVM子系统的通信接口，与NVM的使用模型无关，即本协议不关心NVM系统是否勇作为固态取缔播放器、主存储器、高速缓冲存储器、备份存储器、冗余存储器，使用模型在本协议规定之外。
+  
+  
