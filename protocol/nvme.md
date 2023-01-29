@@ -14,6 +14,7 @@
 ### scope 范围
 
   规范定义了用于与NVM子系统中的控制器通信的寄存器接口及controller（控制器）支持的标准命令集。其中，有三种不同的controller：
+  
     - IO controllers 
     - Discovery controllers 
     - Administrative controllers
